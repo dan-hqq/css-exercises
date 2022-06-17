@@ -20,6 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 12px;
+  gap: 12px;
 }
 
 .icon {
@@ -33,6 +36,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 42px;
+}
+
+.isi{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.isinya{
+  display: flex;
+}
+
+.header{
+  font-weight: bold;
+  font-size: large;
 }
 
 .close-button {
@@ -46,6 +65,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.text{
+  font-size: medium;
 }
 
 button {
@@ -57,10 +82,13 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  font-size: small;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  font-size: small;
+  margin-left: 3px;
 }
